@@ -8,6 +8,6 @@
 </head>
 
 <body>
-  <a href="[index.html](https://xiaolatus.github.io/dev-front/index.html)https://xiaolatus.github.io/dev-front/index.html">Site</a>
+  <a href="https://xiaolatus.github.io/dev-front/index.html)https://xiaolatus.github.io/dev-front/index.html">Site</a>
 </body>
 </html>

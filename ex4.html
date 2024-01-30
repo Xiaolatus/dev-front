@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ex4.css" rel="stylesheet" />
+    <title>Rendu - Dev Web - Angeline YANG</title>
+    
+    <link rel="icon" href="logo.ico">
+</head>
+    <header>
+        <h1>Responsive Web Design</h1>
+        <nav id="navi">
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="dom2.html">DOM#1 ex2</a></li>
+                <li><a href="ex4.html">RWD ex4</a></li>
+                <li><a href="animation5.html">Animations ex5</a></li>
+                <li><a href="ex2.html">RWD ex2</a></li>
+                <li><a href="dom1.html">DOM#1 ex1</a></li>
+                <li><a href="animation1.html">Animations ex1</a></li>
+            </ul>
+            <ul>
+            <li><a href="ex4.html">Accueil</a></li>
+            <li><a href="tuto.html">Tuto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<body>
+    <div class="container">
+        <div id="bloc">
+            <div id="row">
+                <div class="color-block" id="block1">
+                    <h2>Le Responsive Web Design</h2>
+                    <p>
+                    Le <a href="https://twitter.com/beep"><span title="cité pour la première fois par Etan Marcotte">Responsive Web Design</span></a> permet de faciliter la navigation et d'améliorer l'expérience utilisateur sur mobile. Il ajuste automatiquement l'affichage d'une page web.
+                </p></div>
+                <div class="color-block" id="block2"><img src="rwd.jpg" alt="image responsive web design"></div>
+            </div>
+            <div class="color-block" id="block3">
+                <h2>Media Queries</h2>
+                <p>
+                    Les Media Queries vont nous permettre d’appliquer certaines règles CSS de manière conditionnelle. Par exemple, on va pouvoir définir une largeur pour un élément pour certaines tailles d’écrans et une largeur différente pour le même élément pour d’autres tailles d’écran.</br></br>
+                    Cela va nous permettre d’afficher des pages avec des organisations différentes selon la taille de l’écran d’un visiteur. Attention ici à ne pas confondre les Media Queries et les valeurs de taille relatives et en % ou le flexbox.
+                </p>
+                <p>On utilise alors : </br>@media(min-width: 768px) and (max-width: 1388px)
+
+                    {</br>
+                        /* On met ici les propriétés CSS que l'on souhaite appliquer */
+                    </br>
+                    }</p>
+            </div>
+            <h2>Vidéo démonstration :</h2>
+            <video width="320" height="240" controls autoplay>
+                <source src="video.mp4" type=video/mp4>
+            </video>
+        </div>
+
+    </div>
+</body>
+
+<footer>
+    <p>Sources :<a href="https://www.easy-micro.org/texte-responsive.php&id=1008"> easy micro</a>
+    </br> <a href="https://www.adimeo.com/blog/le-responsive-web-design"> Vidéo</a>
+    </br> <a href="https://www.pierre-giraud.com/html-css-apprendre-coder-cours/introduction-responsive-design/"> Exemple</a>
+    </br> <a href="https://www.easybear.fr/blog/reussir-son-responsive-design"> Tuto</a>
+</p>
+    
+    <p>©Angeline YANG 2024 - Tous droits réservés</p>
+</footer>
+</html>

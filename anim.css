@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#banner {
+    width: 728px;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    border: thick double #8d5112;
+    background-color: #bc8d5a;
+    display: block;
+    margin: 50px auto;
+}
+
+#animated-image {
+    position: absolute;
+    top: -10px;
+    animation: slide 10s infinite;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#animated-text {
+    position: absolute;
+    animation: text-animation 2s infinite;
+    color: #8b2525;
+    font-size: 24px;
+}
+
+@keyframes slide {
+    0% { left: -100%; }
+    50% { left: 0; }
+    100% { left: -100%; }
+}
+
+@keyframes text-animation {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}

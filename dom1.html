@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendu - Dev Web - Angeline YANG</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="logo.ico">
+</head>
+    <header>
+        <nav id="navi">
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="dom2.html">DOM#1 ex2</a></li>
+                <li><a href="ex4.html">RWD ex4</a></li>
+                <li><a href="animation5.html">Animations ex5</a></li>
+                <li><a href="ex2.html">RWD ex2</a></li>
+                <li><a href="dom1.html">DOM#1 ex1</a></li>
+                <li><a href="animation1.html">Animations ex1</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div id="paragraphContainer">
+            <p id="p1">paragraphe 1</p>
+            <p id="p2">paragraphe 2</p>
+            <p id="p3">paragraphe 3</p>
+            <p id="p4">paragraphe 4</p>
+        </div>
+        <button id="addButton">Ajoute</button>
+        <button id="exchangeButton">Echange</button>
+        <script src="dom1.js"></script> <!-- le script doit être après la balise <p> sinon cela signifie que les élement de paragraphe n'ont pas encore été chargés dans le DOM-->
+    
+        <div class="commentaire">
+        <p>J'ai ensuite décidé de choisir l'exercice 1 du TP DOM#1, l'exercice consistait à faire en sorte qu'on puisse ajouter des paragraphe à l'aide un bouton "Ajoute", mais aussi d'inverser les paragraphes avec un bouton "Echange". 
+        Pour cela, j'ai d'abord créé un fichier dom1.js dans lequel j'ai créé une fonction addParagraph() qui permet d'ajouter un paragraphe à la fin de la liste de paragraphe. J'ai ensuite créé une fonction exchangeParagraph() qui permet d'échanger le premier paragraphe avec le dernier.
+        </br>Cet exercice m'a permis de comprendre comment manipuler le DOM, et comment créer des fonctions en javascript.
+        </p>
+        </div>
+    
+        </body>
+    <footer>
+        <p>©Angeline YANG 2024 - Tous droits réservés</p>
+    </footer>
+</html>
